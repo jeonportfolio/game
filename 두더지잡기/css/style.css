@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.game-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 5px solid #333;
+}
+
+.mole {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
